@@ -94,4 +94,4 @@ colnames(outputdf)[4] <- subdfname[4]
 }
 # Finally, we write a file with the output dataframe into the working directory
 
-write.table(outputdf, "Tidy Means and SDs")
+write.table(outputdf, "Tidy Means and SDs", row.names = FALSE)
